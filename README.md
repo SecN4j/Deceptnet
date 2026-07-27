@@ -71,3 +71,19 @@ Using Python (pandas + matplotlib), Cowrie's JSON logs were parsed to:
 - Post-compromise behavior followed a classic recon pattern
 - `wget` to external domain flagged as exfiltration attempt
 
+## screenshots
+### Wazuh Custom Rule 100101 — Cowrie Login Success Detected
+![Custom Rule 100101](wazuh-custom-rule-100101-cowrie-login-success.png)
+*Custom Wazuh rule 100101 firing on successful honeypot login — root/admin123*
+
+### Wazuh Discover — Cowrie Login Success Event
+![Wazuh Login Success](wazuh-discover-cowrie-login-success.png)
+*Wazuh Discover showing cowrie.login.success event from Kali attacker machine*
+
+### Wazuh — Suricata SYN Scan Detection
+![Suricata Detection](wazuh_suricata_syn_scan_detection.png.png)
+*Custom Suricata rule sid:1000001 detecting SYN scan — alert visible in Wazuh*
+
+### Python Analysis Output
+![Python Analysis](python-login-analysis-summary.png)
+*Python script parsing Cowrie logs — 360 events, 61 failed logins, top usernames and passwords*
