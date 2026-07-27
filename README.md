@@ -1,4 +1,4 @@
-# Deceptnet
+# DeceptNet: A Honeypot-Based Threat Detection & Attacker Behavior Analysis Lab
 > A honeypot-based threat detection lab built to capture, detect, and analyze attacker behavior using real open-source security tools.
 
 ## Architecture
