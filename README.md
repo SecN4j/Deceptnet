@@ -35,7 +35,7 @@
 
 | Rule ID | Event |
 |---------|-------|
-| 100100 | Cowrie session connect |
+| 100100 | ase Cowrie honeypot event (no alert, parent rule) |
 | 100101 | Cowrie login success |
 | 100102 | Cowrie login failed |
 | 100103 | Cowrie command input |
