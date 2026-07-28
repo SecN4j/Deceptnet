@@ -31,8 +31,15 @@
 - Fires real-time alerts using custom Wazuh detection rules
 - Analyzes attacker behavior and generates visual reports with Python
 
-## Custom Wazuh Rules
+### Custom Wazuh Rules
+| Rule ID | Event |
+|---|---|
+| 100100 | Base Cowrie honeypot event (parent rule, no alert) |
+| 100101 | Cowrie login success |
+| 100102 | Cowrie command input |
+| 100103 | Cowrie session connect |
 
+### MITRE ATT&CK Mapping
 | Rule ID | Event | ATT&CK Technique | ID |
 |---|---|---|---|
 | 100101 | Cowrie login success | Valid Accounts | T1078 |
