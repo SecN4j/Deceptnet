@@ -1,0 +1,5 @@
+# DeceptNet - Custom Suricata Rule
+# Detects: SYN scan against honeypot network
+# Referenced in: README.md > Wazuh — Suricata SYN Scan Detection
+
+alert tcp any any -> $HOME_NET any (msg:"Possible SYN Scan Detected"; flags:S; threshold: type both, track by_src, count 5, seconds 10; sid:1000001; rev:1;)
