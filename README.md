@@ -84,4 +84,5 @@ Using Python (pandas + matplotlib), Cowrie's JSON logs were parsed to:
 
 ### Python Analysis Output
 ![Python Analysis](docs/python-login-analysis-summary.png)
+
 *Python script parsing Cowrie logs — 360 events, 61 failed logins, top usernames and passwords*
