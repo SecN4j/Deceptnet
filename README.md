@@ -81,7 +81,7 @@ Using Python (pandas + matplotlib), Cowrie's JSON logs were parsed to:
 *Wazuh Discover showing cowrie.login.success event from Kali attacker machine*
 
 ### Wazuh — Suricata SYN Scan Detection
-![Suricata Detection](wazuh_suricata_syn_scan_detection.png.png)
+![Suricata Detection](wazuh_suricata_syn_scan_detection.png)
 *Custom Suricata rule sid:1000001 detecting SYN scan — alert visible in Wazuh*
 
 ### Python Analysis Output
