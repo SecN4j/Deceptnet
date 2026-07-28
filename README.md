@@ -33,12 +33,11 @@
 
 ## Custom Wazuh Rules
 
-| Rule ID | Event |
-|---------|-------|
-| 100100 | ase Cowrie honeypot event (no alert, parent rule) |
-| 100101 | Cowrie login success |
-| 100102 | Cowrie login failed |
-| 100103 | Cowrie command input |
+| Rule ID | Event | ATT&CK Technique | ID |
+|---|---|---|---|
+| 100101 | Cowrie login success | Valid Accounts | T1078 |
+| 100102 | Cowrie command input | Command and Scripting Interpreter: Unix Shell | T1059.004 |
+| 100103 | Cowrie session connect | (optional — this is just connection, not really an ATT&CK technique on its own) |
 
 ## Simulations
 
