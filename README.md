@@ -37,7 +37,6 @@
 |---|---|---|---|
 | 100101 | Cowrie login success | Valid Accounts | T1078 |
 | 100102 | Cowrie command input | Command and Scripting Interpreter: Unix Shell | T1059.004 |
-| 100103 | Cowrie session connect | ( this is just connection, not really an ATT&CK technique on its own) |
 
 ## Simulations
 
