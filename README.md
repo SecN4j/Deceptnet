@@ -47,7 +47,7 @@
 - **Target:** Cowrie SSH honeypot (port 2222)
 - **Result:** 61 failed attempts, credential `root/admin123` discovered
 
-![Login Success vs Failed](login-success-vs-failed-chart.png)
+![Login Success vs Failed](docs/login-success-vs-failed-chart.png)
 
 ### 2. Post-Compromise Session
 After a successful login, the attacker ran recon commands inside the honeypot:
