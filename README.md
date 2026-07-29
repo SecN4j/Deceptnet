@@ -59,6 +59,8 @@ After a successful login, the attacker ran recon commands inside the honeypot:
 
 `whoami` `uname -a` `id` `cat /etc/passwd` `ls -la /root` `ps aux` `netstat -antp` `wget` `history`
 
+![cowrie commands confirmed](docs/cowrie_command_capture_confirmed.png)
+
 All commands captured as `cowrie.command.input` events in Wazuh.
 
 ![Wazuh Alerts Overview](docs/wazuh_discover_cowrie_alerts_overview.png)
