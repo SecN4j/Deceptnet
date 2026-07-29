@@ -1,9 +1,18 @@
 # DeceptNet: A Honeypot-Based Threat Detection & Attacker Behavior Analysis Lab
 > A honeypot-based threat detection lab built to capture, detect, and analyze attacker behavior using real open-source security tools.
 
+## Why I Built This Project
+As a cybersecurity engineering student, I wanted to move beyond theoretical concepts and gain practical experience with the technologies used by security professionals.
+
+I built DeceptNet to create a realistic security lab where I could safely simulate cyberattacks, capture malicious activity, and analyze attacker behavior using open-source security tools. The project allowed me to integrate a complete defensive monitoring pipeline—from attack simulation and honeypot deployment to log collection, SIEM correlation, and behavioral analysis.
+
+Beyond learning how to configure tools such as Cowrie, Suricata, Wazuh, and Filebeat, my goal was to understand how security events are generated, correlated, and investigated in a real-world environment. This project also strengthened my skills in Linux administration, network security, log analysis, Python scripting, and detection engineering.
+
 ## Architecture
 
 ![DeceptNet Architecture](diagram.png)
+
+Kali performs simulated attacks against the Cowrie honeypot. Cowrie generates logs that are forwarded by Filebeat to Wazuh. Suricata monitors network traffic independently and sends alerts to Wazuh. Wazuh correlates both data sources while Python scripts analyze the captured attacker behavior.
 
 ## Tools Used
 
