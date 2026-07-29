@@ -1,7 +1,9 @@
 import json
 import pandas as pd
 import matplotlib.pyplot as plt
-import argparse
+from pathlib import Path
+
+log_path = Path("cowrie.json")
 
 events = []
 with open(log_path, "r") as f:
