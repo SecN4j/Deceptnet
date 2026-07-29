@@ -26,6 +26,24 @@ Kali performs simulated attacks against the Cowrie honeypot. Cowrie generates lo
 | Kali Linux | Attacker simulation machine |
 | VirtualBox | Lab virtualization environment |
 
+## Repository Structure
+
+```text
+DeceptNet/
+│
+├── docs/                      # Screenshots and architecture images
+├── rules/
+│   ├── suricata/
+│   │   └── local.rules         # Custom Suricata IDS rules
+│   └── wazuh/
+│       └── local_rules.xml     # Custom Wazuh detection rules
+├── scripts/
+│   └── cowrie_analysis.py      # Python log analysis and visualization
+├── diagram.png                 # Lab architecture diagram
+├── requirements.txt            # Python dependencies
+└── README.md
+```
+
 ## Lab Environment
 
 - **Ubuntu Server 22.04** — hosts Cowrie, Suricata, Wazuh Manager + Agent, Filebeat
